@@ -1,0 +1,81 @@
+body {
+	background-image: url(../images/bg4.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;	
+	font-family: courier, geogria,  sans-serif;
+}
+
+h1 {
+	text-align: center;
+	font-size: 50px;
+	/*font-style: italic; */
+	font-family: 'Amatic SC';
+}
+
+h2 {
+	font-size: 18px;
+	letter-spacing: 12px;
+	text-align: center;
+	font-family: 'Amatic SC';
+}
+
+h3 {
+	font-size: 18px;
+	letter-spacing: 10px;
+	text-align: left;
+	font-family: 'Amatic SC';
+}
+
+img {
+	display: block;
+	margin: 0 auto;
+	border: 12px dotted tomato;
+	border-radius: 120px 120px
+}
+
+p,
+ul,
+ol {
+	line-height: 1.6;
+	list-style: none;
+	padding-left: 0;
+	display: none;
+	font-family: 'Amatic SC';
+
+}
+
+h3:hover{
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+a {
+	color: gold;
+	font-weight: bold;
+	text-decoration: none; 
+}
+
+a:hover {
+	text-decoration: underline;
+	color: tomato;
+
+}
+
+main {
+	background: ivory;
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 10px;
+	border-radius: 20px;
+	box-shadow: 5px 5px 60px 5px rgb(255, 255, 255);
+
+}
+
+@media (max-width: 767px) {
+	main {
+		max-width: 100%
+	}
+
+}
